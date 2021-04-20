@@ -22,9 +22,9 @@ steps:
       secureFile: settings.xml
 
   - task: DownloadSecureFile@1
-    name: license
+    name: license_txt
     inputs:
-      secureFile: license
+      secureFile: license.txt
 
   - task: Maven@3
     inputs:
