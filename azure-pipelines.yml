@@ -28,7 +28,7 @@ steps:
 
   - task: Maven@3
     inputs:
-        mavenPomFile: '$(project_name)/poms/pom.xml' 
+        mavenPomFile: '$(project_name)/DATAOPS/poms/pom.xml' 
         mavenOptions: |
           -Dlicense.path=$(license.secureFilePath)
           -Dupdatesite.path=$(UPDATESITE_PATH)
