@@ -9,9 +9,9 @@ pool:
 variables:
 - group: Talend Configuration
 - name: project_name
-  value: 'PUT_YOUR_PROJECT_NAME'
+  value: 'DataOps'
 - name: job_name
-  value: 'put_your_job_name'
+  value: 'Soccer_api_Call'
 - name: job_version
   value: '0.1'
 
